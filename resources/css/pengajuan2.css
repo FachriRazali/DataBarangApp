@@ -1,0 +1,295 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  color: #1a1a1a;
+}
+
+h1 {
+  color: #3a577f;
+}
+
+.sidebar {
+  background-color: #4a648d;
+  width: 300px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.profile .photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+
+.name h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #fff;
+}
+
+.name h3 {
+  font-size: 14px;
+  margin: 0;
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 30px;
+  padding: 25px 25px;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.list:hover {
+  background-color: #3a577f;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f8fa;
+}
+
+.table-rekap {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  background-color: #f1f5fb;
+  color: #3a577f;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.table tbody td {
+  padding: 10px;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-edit {
+  background-color: #f9da7e;
+  width: 57px;
+  font-size: 13px;
+  font-weight: 300;
+  height: 26px;
+}
+
+.btn-detail {
+  background-color: #93b6ca;
+  width: 57px;
+  font-size: 13px;
+  font-weight: 300;
+  height: 26px;
+}
+
+table#myTable th,
+table#myTable td {
+  text-align: left;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  margin-left: 20px;
+  color: #335b7e;
+}
+.sub {
+  text-decoration: none;
+  color: #fff;
+}
+
+.detail {
+  margin-top: 35px;
+}
+
+.form input[type="text"] {
+  appearance: none;
+  border: none;
+  outline: none;
+  background-color: #f7f8fa;
+  border-bottom: 0.1em solid #335b7e;
+  font-size: 24px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  height: 50px;
+  width: 100%;
+  max-width: 802px;
+  color: #335b7e;
+}
+
+.file {
+  font-size: 24px;
+}
+
+.form input[type="file"] {
+  padding: 5px 0px;
+  appearance: none;
+  border: none;
+  outline: none;
+  margin: 20px;
+  border-bottom: 0.1em solid #335b7e;
+  width: 100%;
+  max-width: 802px;
+  padding: 0.4em;
+  height: 50px;
+}
+
+button {
+  background-color: #335b7e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  margin: 20px;
+  width: 226px;
+}
+button:hover {
+  background-color: #1e3d57;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 220px;
+    padding-top: 20px;
+  }
+
+  .profile .photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .list {
+    padding: 15px 15px;
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .name h1 {
+    font-size: 16px;
+  }
+
+  .name h3 {
+    font-size: 12px;
+  }
+
+  .main {
+    padding: 15px;
+  }
+
+  .form input[type="text"],
+  .form input[type="file"] {
+    font-size: 18px;
+    margin: 10px;
+    width: 100%;
+  }
+
+  button {
+    background-color: #335b7e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin: 20px;
+    width: 226px;
+  }
+  .btn-edit,
+  .btn-detail {
+    width: 50px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 180px;
+    padding-top: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .list {
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .icon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .form input[type="text"],
+  .form input[type="file"] {
+    font-size: 16px;
+    margin: 10px;
+  }
+
+  button {
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+}

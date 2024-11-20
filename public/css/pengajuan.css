@@ -1,0 +1,147 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    color: #1a1a1a;
+  }
+  
+  h1 {
+    color: #3a577f;
+  }
+  
+
+  .sidebar {
+    background-color: #4a648d;
+    width: 250px;
+    padding-top: 30px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .profile .photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .name h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .name h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 30px;
+    padding: 25px 25px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  
+  .list:hover {
+    background-color: #3a577f;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+
+.content {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+}
+
+h1 {
+  color: #335b7e;
+}
+
+
+
+.form label {
+display: flex;
+flex-direction: column;
+}
+
+
+.form input[type="text"] {
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.1em solid #335b7e;
+  padding: 0.4em;
+  font-size: 24px;
+  margin-left: 37px;
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  height: 50px;
+  gap: 37px;
+  width: 90%;
+  color: #335b7e;
+}
+
+.form input[type="file"] {
+  padding: 5px 0px;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.1em solid #60a5cb;
+  width: 90%;
+  padding: 0.4em;
+  height: 50px;
+}
+
+button {
+  background-color: #335b7e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1e3d57;
+}

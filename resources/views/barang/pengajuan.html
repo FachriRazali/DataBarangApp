@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengajuan Peminjaman Barang</title>
+    <link rel="stylesheet" href="css/pengajuan.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <body>
+        <div class="sidebar">
+            <div class="profile">
+              <div class="photo"></div>
+              <div class="name">
+                <h1>Fachri Razali</h1>
+                <h3>Admin</h3>
+              </div>
+            </div>
+      
+            <div class="list">
+              <!-- <img src="" class="icon" /> -->
+              <a href="karyawan.html">Data Karyawan</a>
+            </div>
+      
+            <div class="list">
+              <!-- <img src="" class="icon" /> -->
+              <a href="masuk.html">Data Barang </a>
+            </div>
+      
+            <div class="list">
+              <!-- <img src="" class="icon" /> -->
+              <a href="peminjaman.html">Laporan Peminjaman Barang</a>
+            </div>
+      
+            <div class="list">
+              <!-- <img src="" class="icon" /> -->
+              <a href="pengajuan2.html">Pengajuan Peminjaman Barang</a>
+            </div>
+          </div>
+    
+
+      <!-- Main Content -->
+      <main class="content">
+        <h1>Pengajuan Peminjaman Barang</h1>
+        <div class="card-input">
+          <form class="form">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Nama" />
+
+            <label for="barang"></label>
+            <input type="text" id="barang" name="barang" placeholder="Barang" />
+
+            <label for="signature">Tanda Tangan Atasan</label>
+            <input type="file" id="signature" name="signature" />
+
+            <label for="memo">Surat Internal Memo</label>
+            <input type="file" id="memo" name="memo" />
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

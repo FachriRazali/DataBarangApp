@@ -10,7 +10,10 @@ use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\PengajuanController;
 use App\Http\Controllers\PerizinanController;
+use App\Http\Controllers\Auth\GoogleController;
 
+Route::get('/auth/redirect/google', [GoogleController::class, 'redirectToGoogle'])->name('google.redirect');
+Route::get('/auth/callback/google', [GoogleController::class, 'handleGoogleCallback'])->name('google.callback');
 // Login Page
 Route::get('/login', function () {
     return view('auth.login');

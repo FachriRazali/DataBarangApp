@@ -2,16 +2,6 @@
 
 return [
 
-    'providers' => [
-    Illuminate\Filesystem\FilesystemServiceProvider::class,
-    // Provider lainnya...
-],
-
-'aliases' => [
-    'File' => Illuminate\Support\Facades\File::class,
-    // Alias lainnya...
-],
-
 
     /*
     |--------------------------------------------------------------------------

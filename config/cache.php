@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('CACHE_DRIVER', 'file'), // Ubah dari database ke file
+    'default' => env('CACHE_DRIVER', 'database'), // Ubah dari database ke file
 
     /*
     |--------------------------------------------------------------------------
@@ -47,7 +47,7 @@ return [
 
         'file' => [
             'driver' => 'file',
-            'path' => storage_path('framework/cache/data'), // Pastikan direktori ini ada
+            'path' => storage_path('framework/cache/data'),
         ],
 
         'memcached' => [
